@@ -7,6 +7,7 @@ services:
   
   user_app:
     build: 
+      network: host
       context: ./
       dockerfile: DockerFile
     
